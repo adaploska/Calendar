@@ -12,3 +12,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.calendar-slider-left {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 25px;
+  height: 100%;
+}
+.calendar-slider-right {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  width: 25px;
+  height: 100%;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+}
+.actual-date {
+  border-bottom: 1px solid blue;
+  /* border-radius: 50%; */
+}
+
+.slick-slide {
+  display: inline-block;
+}
